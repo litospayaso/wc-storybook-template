@@ -8,12 +8,11 @@
     "start": "npm run storybook",
     "watch:rollup": "rollup -c --watch",
     "build": "node --max-old-space-size=81920 node_modules/rollup/dist/bin/rollup -c",
-    "build-storybook": "npx storybook build --config-dir .storybook --output-dir build_storybook --debug-webpack",
+    "build-storybook": "npx storybook build --config-dir .storybook --output-dir build_storybook --debug-webpack -o ./docs",
     "lint": "eslint --fix src/**/*.ts",
     "test:unit": "web-test-runner --config wtr.config.mjs --coverage",
     "playwright": "playwright install",
-    "storybook": "npx storybook dev -p 6060",
-    "storybook-build": "npx storybook build -c .storybook -o dist-storybook"
+    "storybook": "npx storybook dev -p 6060"
   },
   "workspaces": [
     "src/components/*"
