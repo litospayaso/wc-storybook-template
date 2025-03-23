@@ -1,0 +1,33 @@
+{
+"compilerOptions": {
+  "outDir": "dist",
+  "module": "es2015",
+  "target": "es2017",
+  "lib": ["es5", "es6", "es7", "es2017", "dom"],
+  "sourceMap": true,
+  "allowJs": false,
+  "jsx": "react",
+  "moduleResolution": "node",
+  "rootDirs": ["src", "stories"],
+  "baseUrl": "src",
+  "forceConsistentCasingInFileNames": true,
+  "noImplicitReturns": true,
+  "noImplicitThis": true,
+  "noImplicitAny": true,
+  "strictNullChecks": true,
+  "resolveJsonModule": true,
+  "noUnusedLocals": true,
+  "declaration": true,
+  "allowSyntheticDefaultImports": true,
+  "experimentalDecorators": true,
+  "emitDecoratorMetadata": true,
+  "esModuleInterop": true,
+  "downlevelIteration": true,
+  "noUnusedParameters": true,
+  "typeRoots": ["node_modules/@types",],
+  "types" : [],
+},
+
+"include": ["src/**/*"],
+"exclude": ["node_modules", "dist", "scripts", "src/**/*.test.ts"]
+}

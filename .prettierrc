@@ -1,0 +1,8 @@
+{
+    "printWidth": 100,
+    "@typescript-eslint/ban-ts-ignore": "off",
+    "endOfLine": "auto",
+    "indent": [ "error", 2 ],
+    "singleQuote": true,
+    "trailingComma": "es5"
+}
