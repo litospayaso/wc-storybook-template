@@ -1,7 +1,6 @@
 node_modules
 dist
 .DS_Store
-dist-storybook
 build_storybook
 distroll
 .vscode
@@ -16,3 +15,4 @@ test-results.xml
 .idea
 package-lock.json
 yarn.lock
+.github
